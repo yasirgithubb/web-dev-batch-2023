@@ -26,6 +26,7 @@
     width: 418px;
 }
 .logo img{
+    margin: 65px 16px 145px -12px;
     height: 100px;
     width: 100%;
     padding: 5px;
@@ -188,6 +189,10 @@ section{
 }
 .madeby svg{
     color: red;
+}
+.logo img{
+    
+    transform: translate(30px, 40px);
 }
 
 @media (min-width: 873px) and (max-width: 1226px){
