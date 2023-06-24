@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.html{
+    scroll-behavior: smooth;
+    
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    font-size: 12px;
+    color: #ffff;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    padding: 0px;
+    
+}
+.last a{
+    padding: 0px 10px;
+    text-decoration: none;
+    color: #fff;
+}
+.first p{
+    margin: 15px 20px;
+}
+.container{
+    border-radius: 5px;
+    padding: 30px;
+    margin: 0px;
+    background-color: #ddd;
+}
+.bookstable:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.bookstable, .registration-form{
+    border-radius: 5px;
+    background-color: #fff;
+    margin: 30px 20%;
+    padding: 30px;
+}
+.bookstable h1, .registration-form{
+    padding: 10px 0px;
+}
+.bookstable table, tr, td, th{
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    padding: 5px 10px;
+
+}
+.bookstable table{
+    width: 100%;
+}
+.bookstable th.col{
+    text-align: left;
+}
+.ns-table{
+    margin: 10px 0px;
+}
+.registration-form .form-control{
+    margin: 10px 0px;
+}
+.registration-form{
+    padding: 16px;
+}
+.form-control label{
+    font-size: 12px;
+}
+.form-control input{
+    width: 98%;
+    height: 25px;
+    border: 1px solid grey;
+    padding: 2px 10px;
+    font-size: 12px;
+}
+.submit-btn{
+    background-color: #000;
+    color: white;
+    height: 40px;
+}
+.form-control input:focus{
+
+    background-color: lightblue;
+}
+
+
