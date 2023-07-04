@@ -1,0 +1,339 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Ruda', sans-serif;
+}
+.container{
+    z-index: 5;
+    font-size: 14px;
+}
+.head{
+    position: fixed;
+    width: 100%;
+}
+
+.main{
+        color: #ffffff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+.pizza{
+    margin: 18px 20px;
+}
+
+.a, .b, .c, .d, .e, .f{
+    color: white;
+    padding: 0px 15px;
+    text-decoration: none;
+}
+
+.about{
+    display: flex;
+    margin: 1px 152px;
+    position: relative;
+    right: 40px;
+    top: 2px;
+}
+.one{
+    
+    position: relative;
+    right: 40px;
+    top: 1px;
+}
+.two{
+    
+    position: relative;
+    right: 55px;
+    bottom: 12px;
+}
+.three{
+    
+    position: relative;
+    right: 40px;
+    bottom: 6px;
+}
+.head{
+    background-color: black;
+}
+.pi{
+    width: 1272px;
+    height: 500px;
+}
+.icons{
+    display: contents;
+}
+.we{
+   
+    font-family: 'Quattrocento', serif;
+    position: relative;
+    left: 100px;
+    top: 170px;
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+    
+}
+.mainsection{
+    position: relative;
+    z-index: -1;
+}
+.are{
+   
+    font-family: 'Quattrocento', serif;
+    position: absolute;
+    left: 100px;
+    top: 240px;
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 23px;
+}
+.rectangle{
+    position: absolute;
+    left: 100px;
+    top: 200px;
+    top: 290px;
+    left: 93px;
+    width: 271px;
+    height: 30px;
+}
+.pl{
+    font-family: 'Ruda', sans-serif;
+    position: absolute;
+    left: 100px;
+    top: 350px;
+    color: white;
+    width: 311px; 
+    font-weight: 500;
+    line-height: 21px;
+    font-size: 15px;  
+}
+.aboutus{
+    padding: 12px 0px;
+    font-size: 32px;
+    
+    color: white;
+    font-family: 'Quattrocento', serif;
+    color: black;
+    display: flex;
+    justify-content: center;
+    flex-shrink: 0;
+    color: white;
+}
+.aboutsection{
+
+    background-color: black;
+}    
+
+.ipsum{   
+    color: white;
+    width: 370px;
+}
+.dough img{
+    margin-left: 20px;
+    padding-bottom: 10px;
+    width: 320px;
+
+}
+.arrange{
+    display: flex;
+    justify-content: center;
+}
+.ipsum{
+    margin-right: 40px;
+    margin: 50px;
+}
+.aboutline{
+    width: 245px;
+    height: 4px;
+    padding: 0px 486px;
+    margin: 5px 12px;
+}
+.mennu{
+    background-color: black;
+}
+.menu{
+    font-family: 'Quattrocento', serif;
+    color: white;
+    font-weight: 10px;
+    padding: 9px 591px;
+    font-weight: 500;
+}
+.menupara{
+    color: white;
+    width: 715px;
+    padding: 0px 296px;
+
+}
+.breadd{
+    display: flex;
+    justify-content: center;
+}
+.bread{
+    margin: 5px 5px;
+    padding: 11px 0px;
+    line-height: 3px;
+    height: 1px;
+    color: #F2C94C
+}
+.line{
+    font-family: 'Ruda', sans-serif;
+    color: rgb(250, 246, 246);
+    width: 250px;
+    padding: 0px 0px;
+    margin-right: 0px;
+    padding-right: 0px;
+}
+.breadd img{
+    width: 127px;
+    padding: 10px;
+    padding-right: 5px;
+    padding-top: 1px;
+}
+
+.area{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 50%);
+}
+.mennuu{
+    background-color: black;
+}
+.qmenu{
+    font-family: 'Quattrocento', serif;
+    color: white;
+    font-weight: 10px;
+    padding: 9px 591px;
+    font-weight: 500;
+}
+.aboutlines{
+    width: 245px;
+    height: 4px;
+    padding: 0px 510px;
+    margin: 5px 12px;
+}
+
+.carousel-inner > .carousel-item > img {
+    width: 100px;
+    height:433px;
+    margin: 0px 330px;
+  }
+  #carouselExampleIndicators{
+    background-color: black;
+  }
+.galleryy{
+    background-color: black;
+
+  }
+.gallery{
+    color: white;
+    font-family: 'Quattrocento', serif;
+    color: white;
+    font-weight: 10px;
+    padding: 7px 591px;
+
+}
+.galleryline{
+    width: 240px;
+    height: 4px;
+    margin: 1px 525px;
+    margin-bottom: 50px;
+}
+.peetsa img{
+
+}
+.full{
+    margin: 0px 150px;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: repeat(2, 30%);
+}
+.twoo img{
+    height: 320px;
+    width: 274px;
+}
+.fourr{
+    height: 320px;
+    width: 274px;
+}
+.one img{
+    width: 287px;
+    height: 219px;
+
+}
+.findd{
+    background-color: black;
+
+}
+.find{
+    color: white;
+    font-family: 'Quattrocento', serif;
+    color: white;
+    font-weight: 10px;
+    padding: 7px 560px;
+}
+.findus{
+    width: 240px;
+    height: 4px;
+    margin: 1px 500px;
+    margin-bottom: 50px;
+}
+.cap{
+    display: flex;
+    justify-content: center;
+}
+.map img{
+    width: 366px;
+    margin: 35px 178px;
+}
+.lorem{
+    color: white;
+    padding: 59px 130px;
+}
+.phone{
+    color: white;
+
+}
+.no{
+    color: white;
+}
+.g{
+    color: white;
+}
+.class{
+    
+    padding: 3px 98px;
+    margin: -2px 242px;
+    margin-bottom: -72px;
+}
+.location{
+    width: 28px;
+}
+.phone{
+    width: 45px;
+}
+.capboy img{
+    width: 90px;
+    margin-top: 60px;
+    margin: 60px;
+}
+.capp{
+    display: flex;
+    justify-content: space-around;
+
+}
+.to, .ro{
+    color: white;
+    
+}
+.to img{
+    width: 30px;
+    margin: 32px 0px;
+    padding-left: 700px;
+    
+}
+.ro img{
+    width: 30px;
+}
